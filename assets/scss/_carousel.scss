@@ -1,0 +1,26 @@
+.carousel-item {
+    height: 90vh;
+    min-height: 350px;
+    background: no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+   .carousel-caption{
+     color:#000;
+     font-family:$font-bree;
+   }
+  }
+  @media (max-width: 900px) {
+   .carousel-caption {
+      font-size: 0.6rem;
+      color:#fff;
+    }
+  }
+  .bg-slider{
+    background-color: rgba(255, 255, 255, 0.6);
+    }
+
+  .bg-darkslider{
+    background-color: rgba(5, 5, 5, 0.5);
+   }

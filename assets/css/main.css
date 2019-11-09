@@ -1,0 +1,175 @@
+@import url("https://fonts.googleapis.com/css?family=Nunito+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Bree+Serif&display=swap");
+.bg-gray {
+  background-color: #F5F5F5;
+}
+
+.link {
+  text-decoration: none;
+  color: #000;
+}
+
+.bg-softdark {
+  background-color: #272121;
+}
+
+.display-5 {
+  font-size: 2.5rem;
+}
+
+.bg-red {
+  background: linear-gradient(90deg, #ca1919 0%, #e43333 35%, red 100%);
+}
+
+.font-nunito {
+  font-family: "Nunito Sans", sans-serif;
+}
+
+.font-nunito-bold {
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: 600;
+  line-height: 2;
+}
+
+.title {
+  font-size: 3rem;
+  text-transform: uppercase;
+}
+
+.line {
+  width: 20%;
+  border: 1px solid #272121;
+}
+
+.font-bree {
+  font-family: "Bree Serif", serif;
+}
+
+#navbar-size {
+  height: 6rem;
+}
+
+.dropdown:hover > .dropdown-menu {
+  display: block;
+}
+.dropdown > .dropdown-toggle:active {
+  pointer-events: none;
+}
+
+#navbarcustom {
+  margin-right: 15rem;
+}
+
+.nav-link {
+  font-size: 1em;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+#about {
+  background: #fff;
+  padding: 80px 0;
+}
+
+#about .about-container .background {
+  min-height: 300px;
+  background: url(../img/about.png) center top no-repeat;
+  margin-bottom: 10px;
+}
+
+#about .about-container .content {
+  background: #fff;
+}
+
+#about .about-container .title {
+  color: #333;
+  font-weight: 700;
+  font-size: 32px;
+}
+
+@media (max-width: 768px) {
+  #about .about-container .title {
+    padding-top: 15px;
+  }
+}
+#about .about-container p {
+  line-height: 26px;
+}
+
+#about .about-container p:last-child {
+  margin-bottom: 0;
+}
+
+#about .about-container .icon-box {
+  background: #fff;
+  background-size: cover;
+  padding: 0 0 30px 0;
+}
+
+#about .about-container .icon-box .icon {
+  float: left;
+  background: #fff;
+  width: 64px;
+  height: 64px;
+  display: flex;
+  color: #272121;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  border-radius: 50%;
+  border: 2px solid #272121;
+}
+
+#about .about-container .icon-box .icon i {
+  color: #272121;
+  font-size: 24px;
+}
+
+#about .about-container .icon-box .title {
+  margin-left: 80px;
+  font-weight: 500;
+  margin-bottom: 5px;
+  font-size: 18px;
+  text-transform: uppercase;
+}
+
+#about .about-container .icon-box .title a {
+  color: #111;
+}
+
+#about .about-container .icon-box .description {
+  margin-left: 80px;
+  line-height: 24px;
+  font-size: 14px;
+}
+
+.carousel-item {
+  height: 90vh;
+  min-height: 350px;
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.carousel-item .carousel-caption {
+  color: #000;
+  font-family: "Bree Serif", serif;
+}
+
+@media (max-width: 900px) {
+  .carousel-caption {
+    font-size: 0.6rem;
+    color: #fff;
+  }
+}
+.bg-slider {
+  background-color: rgba(255, 255, 255, 0.6);
+}
+
+.bg-darkslider {
+  background-color: rgba(5, 5, 5, 0.5);
+}
+
+/*# sourceMappingURL=main.css.map */

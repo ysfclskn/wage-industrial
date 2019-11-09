@@ -1,0 +1,31 @@
+#navbar-size{
+    height: 6rem;
+}
+.dropdown {
+    &:hover {
+      &>.dropdown-menu {
+        display: block;
+      }
+    }
+    &>.dropdown-toggle{
+      &:active{
+        pointer-events: none;
+      }
+    }
+  }
+
+
+#navbarcustom{
+   margin-right:15rem;
+
+
+}
+
+.nav-link{
+    font-size:1em;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+
+
